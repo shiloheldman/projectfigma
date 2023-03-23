@@ -1,0 +1,394 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit&family=Montserrat:wght@500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header-block {
+  width: 100%;
+  height: 144px;
+  background-color: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__nav-block {
+  width: 70%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.nav-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-1__icons {
+  width: 10%;
+  display: flex;
+  justify-content: space-between;
+}
+.nav-1__icons a {
+  text-decoration: none;
+}
+.nav-1__icons a ion-icon {
+  color: #001ED3;
+  width: 20px;
+  height: 20px;
+}
+
+.nav-1__items {
+  width: 20%;
+  display: flex;
+  justify-content: space-between;
+}
+.nav-1__items a {
+  color: #41444B;
+  font-family: "Kanit", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 15px;
+  letter-spacing: 0px;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: left;
+}
+
+.border-line {
+  width: 100%;
+  height: 1px;
+  background-color: #D4D7DD;
+}
+
+.nav-2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-2__items {
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+}
+.nav-2__items a {
+  font-family: "Kanit", sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  text-transform: capitalize;
+  font-weight: 700;
+  text-decoration: none;
+  color: #00215B;
+}
+
+.logo-nav {
+  width: 10%;
+  height: 100%;
+}
+
+.logo-nav::before {
+  content: "";
+  width: 25%;
+  height: 20%;
+  position: relative;
+  top: 4px;
+  left: 23px;
+  background-color: red;
+  display: block;
+}
+
+@media (max-width: 1024px) {
+  .nav-1__icons {
+    width: 30%;
+  }
+  .nav-2__items {
+    display: none;
+  }
+  .nav-1__items {
+    gap: 10%;
+  }
+}
+
+/* Header */
+
+.port-container{
+    width: 100%;
+    height: 419px;
+    display: flex;
+    background-image: url(./Rectangle\ 1.svg);
+}
+.port-active{
+    width: 600px;
+    height: 280px;
+   
+    margin: 120px 350px;
+}
+.port-active h1{
+    color: #Fff;
+    font-weight: 900;
+    font-family: "Montserrat";
+    font-size: 36px;
+}
+.port-active span{
+    color: #Fff;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 19px;
+    font-weight: 400;
+
+    position: relative;
+    top: 30px;
+}
+.inner-active{
+    width: 100%;
+    height: 210px;
+    background-color: #fff;
+
+}
+.inner-block{
+    width: 482px;
+    height: 195px;
+    background-color: #fffbfb;
+    left: 50%;
+    position: relative;
+    top: -80px;
+
+}
+.line-ach{
+    width: 100%;
+    height: 10px;
+    
+    background-color: crimson;
+
+}
+.act-text span{
+    color: #000;
+    font-family: "Montserrat";
+    font-size: 18px;
+    position: relative;
+    top: -20px;
+
+}
+.act-text h1{
+    font-family: "Montserrat";
+    font-weight: 900;
+    font-size: 32px;
+    color: #00215B;
+   
+}
+.act-text{
+    position: relative;
+    left: 30px;
+    top: 50px;
+}
+.liner-flex{
+    width: 100%;
+    height: 1400px;
+    background-color: #fff;
+}
+
+.pa-2{
+    width: 373px;
+    height: 485px;
+    background-color: red;
+    background-image: url();
+}
+.parent{
+    width: 1200px;
+    height: 100%;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: -20px auto;
+}
+.parent div:nth-child(1){
+    background-size: cover;
+   /* background-image: url(/pp/images/Rectangle\ 15.svg); */
+}
+.parent div:nth-child(2){
+    background-size: cover;
+   background-image: url(https://s3-alpha-sig.figma.com/img/95e7/732c/7bd701a6e7fdbca7e98787d09e1d0fda?Expires=1680480000&Signature=bFJUWh6czhqsiAZUe4NhjgR44xzhf0wr1~VWGqcGUbV3l4sxYQn-JzoujT5Cv8uotZEFcr6MXygL9EoFF-lqWEFCJsyJAr0duHbdLHarn9BTd46AWmxq2yzUcka55ZmL2Yr6wEjVXkSHWaxJfgSVzOMPiCn8JEHgKeMWmL48EXWY7Ig8~J~Bh-hJSJWm8x9MQta6L-KjcRmfYFTzZjHXFWq2B2mMlrAl~400KhJz2Y5Z5k~ieYKSRlpvhzrI1BaBl~QsWncHli2~ecAmug99AR0swq~cnJJpCxv-nb6JJt79~q0jjJErMbQERVed6RdyyB4QNLz5LJUuv8KT-kWt-w__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4);
+}
+.parent div:nth-child(3){
+    background-size: cover;
+    background-image: url(https://s3-alpha-sig.figma.com/img/0345/0d6f/b4bb77c3e24b1681d8b70e7ffaac9fa1?Expires=1680480000&Signature=dOplqcLs2VZicwGUnk-3PPWaVXJwA8SS0FSqfGh4LrVWOBKxL8WTIba-RFtj979bHSmCVfBSZZ4xEO99VcunZbxwtyOQn6PZWuHfYL~gxzF1PsNrYw105fEF9jjasdgm56FqJGV0mEBpFDMHwhSos~r30un3bhUvlrDJAqEHtp2K7f3yn4hp3iSv9ALh3m~pigddWBKcK8HyehYe-Yas1W7q~1J~mtuxG0zgx~7zwNtx1Z9sQp~FqWNHuBWjdzNYD7RBQLc2XVS2pt7lMxjJmT-9VQ6018QtnfB7wSOApBTg8V~a-ymSQ7r1j0hUnYRHvywDnqtY-DypAN71DNy3fw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4);
+}
+.parent div:nth-child(4){
+    background-size: cover;
+   background-image: url(https://s3-alpha-sig.figma.com/img/631d/93f8/d08f7a0b0ae67aa5add9108334b2b4aa?Expires=1680480000&Signature=GlMI3ktZQrcjjX5XXAL4dSiVTB1ufrcJ1Dns1reTOIoohviOepFtfidcLU7jCpH1yf-7WdCt7J62as3~uqc7YnSO9OYwWyfXFDkHn9PPsC-G-u98x6lRSlU5tiIWmjtll6CMZ13sGoQMJXGtGLi5rMAtKaQEWTxy37ut-1yXqTpbselxrgX8MIS92eojp0MjtOwKtwF1FnRSEFhyvaRYIBiIuDZYspiNn1PcPxLzYdeMRmg4o-e2VywB21~JiNc3LANCXRd~qPaVf7BydElDUWuZZGvIHlQbU8ctLv9~1IQ~TpiMBeKXPfklCflPnkOTNHHu0X8~sSNo7ubkI1V-iw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4);
+   background-position: center;
+   /* background-size: contain; */
+   
+}
+.parent div:nth-child(5){
+    background-size: cover;
+   background-image: url(https://s3-alpha-sig.figma.com/img/cd0b/5a36/511b98de38d6ff971eea61b49c4a7f36?Expires=1680480000&Signature=mJDTXzPhTwJjvE~O41tJH8y9HvUKec45LVukDockHOW0gl30~6eqEDgM0irRgPRyZ1AbSjMDoddM7m~XVL1Qzap3WUYdxJwCBt8EzS6kMnkpK8KlaCPpw66Zvgr1YRRhr5HEWdgNabeHLn7GFRxMyee2p1PSI6IB9R3dH6t6E9RBXlu39AgajOBucpdRZ3hN7M4c1u0YNqVX4siYiBCtp6QdEysT9mF5OwdX4fronHiVJjOrrzr6bQUemWrI5FfC8ywORzTsXt7zj6NDUzqxxaV7ObHCpj2Ex-XJzYMlp3nsc-U9dV0~KXrWHTAZLy0MVCBUQCAWOf-GtK~jR4rnzA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4 );
+   
+}
+.parent div:nth-child(6){
+    background-size: cover;
+   background-image: url(https://s3-alpha-sig.figma.com/img/5f25/18dd/d07904aeceb216f81e37b68c0576e076?Expires=1680480000&Signature=o3xwNYrkc3c-XnTDLOuNsLulwmBiEECqzkaP7k7-srJ3-ODu8jylqVT3W2THmWXzySBCfXqKwKPp0sCSerbec9dHFsEfLryO28Bq0jiC25e0Bme14DjVme~7LU3cI7L-HR3UTac5aJkEkK1vxNcpgXyMHE3sN-7G2Z4eVKa9uV5-OIHQBL0Z17ytzGw7fAj5VBlAIckjAGjj3np1Cp1OmhbVDvzkbbzqLm4B8WGAl7r5rjzadhCr1o2w6MGZSH1XyzVY4-uwYP3zmQzRWYyK3TMxyURyLVLgJj9BVGgfLNvINeHOaz6TYNAIEI6FOOazG5M~UwkUh8QyyBMSwdw5~g__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4);
+   background-position: center;
+}
+.parent div:nth-child(7){
+    background-size: cover;
+   background-image: url(https://s3-alpha-sig.figma.com/img/561d/ce77/7059aced64d5fb3d151ec6d9a47eec1e?Expires=1680480000&Signature=a6D94XiaGreehm~YF5Yv97n3hIYkXkXe3H3QJh6YGHvFyzgek~UugwrZuBd~aJhJaKT4WWQBGdRatsuyGk3IwLbD66kOsVWU-OtQTIvmwN1-fdJ3uu5sFBMcIF7JkTCvCx0h~Nxgcl3ZGNhp79cf6DgDH~M3FkFx8pmZRgbSwFR~K9Pl2T7Tx6Eq8Q103GR58ZLe1HuTAdgU4QMkVj7WZHHCLznmDFcnFprBn4uYYJknFWV2HNvtgo5~32Yt-3yTUWJELCkTodP0XwYTxQULjDxHz-YUCMasd-3ankUsLpIRH31pbKq7ndNGFQHhurejeggXlpSMoSzkVxkWLIRgpQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4);
+}
+.parent div:nth-child(8){
+    background-size: cover;
+   background-image: url(https://s3-alpha-sig.figma.com/img/f5ed/57e7/81dd1b9d1c731c79bf6e4e6af32a5b83?Expires=1680480000&Signature=f5fA2JISjUP6uRL-CyNLimFKNCfAZr1MrHtTFXAgf-ELeZ0WeElBmoLvlqVZ2YhC~4DaDalAKdgaV9i~r5qjjfIi4TaqZV~~ddPN1FdewluGYCxkJvJm-AOJxrbdmxJTk42Pg9PAsQ4iUKzrz2qu6FE09kgQOEbor-SJW7Mkfz4F4-hozstGAl0FmX1eZdXoSNRtqzmq9Pmd8jg~nunXNydN0o9U0c3ie2F~Of7XsQM1V~Vb4RKfKLhDZN1MgSgggBHmTc3ke1E8Z5SvDniostLwYy5Gy-wSJY7l18M07nhSr~ymGValWvRWXYTO1CRvCdUNnC~Hnbj0pz8-sHjcSg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4);
+}
+
+.parent div:nth-child(9){
+    background-size: cover;
+   background-image: url(https://s3-alpha-sig.figma.com/img/7f72/8c9c/f5a0455535ba2d14314fc85e607e4952?Expires=1680480000&Signature=Awwo9oMXwuZkEHToq5aAa7mFOikvBB-d8yrox-LZP6KjHXgOZYFZm5nqtKe-B7FrnTVjMdYv2ZO7rM6SZroo98Z8p2Rlr4PySf0VLHTlBa6ex~Ju-TjhpS8uBBJpSclEh1S2fLkIVo1g2bmbxeV5x9V4ar1Ncj6TRePkOnhSq5gu~l~QhpPJDMc2tMH8zsKGdbumvBM-LCKFONQE0~w0z6a8k9pW3GoiS6txWRmppGt-Ban5s4ULDOmNR4A~vysDyrOr5h8VTukH4Uqfa5YfV4coCcTVJeJ5XSeXdOeLFptnn5DsE~0jMC~vw5~uGNSU5~RIB8m3cJdOPsD8tmv2WA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4);
+   background-position: center;
+}
+.parent div:nth-child(5){
+color: #Fff;
+font-family: "Montserrat";
+text-align: center;
+}
+.parent div:nth-child(5) h1{
+    margin-top: 180px;
+}
+.parent div:nth-child(5) span{
+    top: 140px;
+    position: relative;
+}
+
+.footer{
+    width: 100%;
+    height: 489px;
+    display: flex;
+    margin-top: 200px;
+  
+  }
+  .ft-1{
+      width: 40%;
+     height: 100%;
+     background-color: #D2153D;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+  }
+  .ft-1__main h1{
+    font-family: "Montserrat";
+    color: #Fff;
+  }
+  .ft-2{
+    width: 60%;
+    height: 100%;
+    background-color: #00215B;
+    display: flex;
+    flex-direction: column;
+  
+  }
+  .ft-1__main{
+    width: 70%;
+    height: 80%;
+  
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+  
+  
+  }
+  .main-borders-ft{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+    height: 70px;
+   
+  }
+  .ft-bor{
+    width: 60px;
+    height: 60px;
+    background-color: #Fff;
+    border-radius: 50%;
+  }
+  .ft-1__main h3{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    font-size: 23px;
+    color: #FFf;
+  }
+  .ft-1__main span{
+    font-weight: 300;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #Fff;
+    font-size: 28px;
+  }
+  .ft-bor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  .ft-bor ion-icon{
+    color: #001ED3;
+    width: 31px;
+    height: 31px;
+  
+  
+  }
+  .ft-2__main{
+       width: 80%;
+       height: 80%;
+      
+       margin: 30px 50px;
+       align-items: center;
+       display: flex;
+       justify-content: space-between;
+  }
+  .ft-2item{
+    width: 100%;
+    height: 80%;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .ft-2item h2{
+    font-family: "Montserrat";
+    font-weight: 700;
+    color: #Fff;
+    width: 100%;
+    font-size: 28px;
+  
+  }
+  .ft-2item span{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 300;
+    color: #Fff;
+    font-size: 18px;
+    margin-bottom: 10px;
+  
+  }
+  
+  .it-2{
+    position: relative;
+    top: -20px;
+  }
+  .ft-span{
+    font-size: 21px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 200;
+    color: #Fff;
+    margin-left: 4%;
+    position: relative;
+    top: -4%;
+  }
+  .pa-2:nth-child(1){
+    background-image: url(/pageislam/pp/imagesflex/Rectangle\ 15\ \(3\).svg);
+  }
+  /*# sourceMappingURL=main.css.map */
+  
